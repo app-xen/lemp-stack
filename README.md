@@ -1,13 +1,13 @@
-# APPXEN LEMP
---
+# APPXEN LEMP STACK
+
+AppXen Open Source LEMP Stack provides a complete, containerized, fully-integrated and ready to run PHP, MySQL and NGINX development environment. In addition, it bundles phpMyAdmin, SQLite, ImageMagick, FastCGI, Memcache, GD, CURL, PEAR, PECL and other components including Mail Catcher for debugging mail and smtp enabled applications.
 
  - Nginx
  - PHP 7.2-fpm
  - MySQL
  - Maildev
-
-# Quickstart
---
+ 
+ https://appxen.com/app/lemp-stack
 
 ## Services
 
@@ -16,6 +16,7 @@
  - Mail catcher: http://yout-ec2-instance:8082
  - Logs: ~/log/
  - Environment Variables: ~/.env
+
 ## Use a virtual host
 
 - On your instance, run `sudo nano /etc/hosts` and add `insert-ip-address insert-host-name`
